@@ -355,7 +355,7 @@ font-weight: 500;
     background: #2e2f42;
     padding: 100px 0;
  }
- .container footer-container {
+ .container .footer-container {
      display: flex;
      align-items: baseline;
  }
