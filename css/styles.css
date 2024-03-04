@@ -118,8 +118,9 @@ color: #404bbf;
     margin-left: auto;
     margin-right: auto;
     background-size: cover;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url('../images/img-people-office\ 1.jpg');
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)),
+    url('../images/hero.jpg');
     background-repeat: no-repeat;
     background-position: center;
     
@@ -233,9 +234,10 @@ border-radius: 50%;
 background-color: #4d5ae5;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .social-list-link:hover,
-.social-list-links:focus {
-background-color: #404bbf;
+.social-list-link:focus {
+    background-color: #404bbf;
 }
 
 .social-list-icon {
